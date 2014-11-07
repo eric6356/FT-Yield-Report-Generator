@@ -5,11 +5,11 @@
 - 自动绘制每位工程师的`Summary`柱状图
 
 ## 例子
-- PareTo柱状图：  
+- PareTo柱状图：
 ![image](https://raw.githubusercontent.com/eric6356/FT-Yield-Report-Generator/master/example/SH79F3211M_FUJI_SMK_CU_201410_PareTo.png)
-- TrendChart趋势图：  
+- TrendChart趋势图：
 ![image](https://raw.githubusercontent.com/eric6356/FT-Yield-Report-Generator/master/example/SH79F3211M_FUJI_SMK_CU_201410_TrendChart.png)
-- Summary柱状图：  
+- Summary柱状图：
 ![image](https://raw.githubusercontent.com/eric6356/FT-Yield-Report-Generator/master/example/summary.png)
 
 
@@ -17,8 +17,8 @@
 1.	在Tango系统中抓取本月的所有lot信息，补全Au/Cu后，[注1]追加在alq.csv中。
 2.	确保alq.csv按照日期递增排序。
 3.	在Tango中抓取本月的VendorLot Report，另存为./month/VendorLot.csv，注意month必须按照格式。
-4.	运行report.exe，按格式输入month，得到所有图表和Summary。
-5.	出现以下3种情况说明binList.csv相应的部分需要维护：  
+4.	运行go.py，按格式输入month，得到所有图表和Summary。
+5.	出现以下4种情况说明binList.csv相应的部分需要维护：  
     i.	图片输出到unknown文件夹——需修改工程师名。  
     ii.	summary.csv中出现unknown封装——需修改封装名。  
     iii.	PareTo中bin name缺失——需增加Bin Name。  
@@ -27,7 +27,20 @@
 注1：在Tango系统中，按下extract之前的预览表格中有Au/Cu的信息，而extract之后的表格则没有。因此需要手动补全后再追加到alq.csv中。可以在Tango中将extract前后的数据都按照lot名字排序后再下载，然后直接复制mental列到extract后的表格即可。
 
 
+## 文件说明
+### 脚本文件
+| 文件名         | 说明                            |
+| ------------- |:------------------------------:|
+| go.py         | 所有脚本的入口                   |
+| deletelot.py  | 删除跨越Lot的前一笔记录           |
+| pareTo.py     | 绘制PareTo，可以单独执行          |
+| trendChart.py | 绘制TrendChart，可以单独执行      |
+| summary.py    | 绘制Summary，生成CSV，可以单独执行 |
+| index.py      | 输入文件的下标                   |
+
+
 First Header | Second Header | Third Header
 ------------ | ------------- | ------------
 Content Cell | Content Cell  | Content Cell
 Content Cell | Content Cell  | Content Cell
+
