@@ -58,7 +58,7 @@
 | Summary.png      | 每位工程师的summary图   | ./month/tester/ |
 
 ## 涉及模块
-- 文件读取：CSV
+- 文件读取：csv
 - 数据处理：[numpy](http://www.numpy.org/)
 - 图表绘制：[matplotlib](http://matplotlib.org/)
 
