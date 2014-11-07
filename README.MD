@@ -1,4 +1,4 @@
-# FT-Yield-Report-Generator FT良率月报自动生成工具  
+# FT-Yield-Report-Generator 良率月报自动生成工具  
 *人生苦短，必须偷懒*
 ***
 ## 概述
