@@ -29,8 +29,8 @@
 
 ## 文件说明
 ### 脚本文件
-| 文件名         | 说明                            |
-| ------------- |:------------------------------|
+| 文件名        | 说明                            |
+| :------------ |:------------------------------|
 | go.py         | 所有脚本的入口                   |
 | deletelot.py  | 删除跨越Lot的前一笔记录           |
 | pareTo.py     | 绘制PareTo，可以单独执行          |
@@ -39,8 +39,28 @@
 | index.py      | 输入文件的下标                   |
 
 
-First Header | Second Header | Third Header
------------- | ------------- | ------------
-Content Cell | Content Cell  | Content Cell
-Content Cell | Content Cell  | Content Cell
+### 输入数据文件
+| 文件名         | 内容                              | 来源        | 路径      |
+| :------------ |:----------------------------------|:-----------|:----------|
+| alq.csv       | 所有的Lot信息（含金铜）              | 每月增量维护 | .        |
+| binList.csv   | 所有产品的Bin信息、封装、负责人       | 每月增量维护 | .        |
+| VendorLot.csv | 包含当月VendorLot Report中抓取的信息 | Tango系统   | ./month/ |
 
+
+### 输入数据文件
+| 文件名            | 内容                  | 路径             |
+| :--------------- |:----------------------|:----------------|
+| summary.csv      | 当月所有产品的summary表 | ./month/        |
+| \*_PareTo.png    | PareTo图              | ./month/        |
+| \*_TrendChart.png| TrendChart图          | ./month/tester/ |
+| Summary.png      | 每位工程师的summary图   | ./month/tester/ |
+
+
+### 文件树状图
+report
+│  alq.csv
+│  binList.csv
+│  report.exe
+│
+└─201410
+        VendorLot.csv
