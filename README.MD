@@ -3,8 +3,13 @@
 - 自动绘制*Tango*系统中的`PareTo`柱状图和`TrendChart`趋势图
 - 自动生成本月所有产品的`Summary`
 - 自动绘制每位工程师的`Summary`柱状图
+
+## 例子
+- PareTo柱状图：  
 ![image](https://raw.githubusercontent.com/eric6356/FT-Yield-Report-Generator/master/example/SH79F3211M_FUJI_SMK_CU_201410_PareTo.png)
+- TrendChart趋势图：  
 ![image](https://raw.githubusercontent.com/eric6356/FT-Yield-Report-Generator/master/example/SH79F3211M_FUJI_SMK_CU_201410_TrendChart.png)
+- Summary柱状图：  
 ![image](https://raw.githubusercontent.com/eric6356/FT-Yield-Report-Generator/master/example/summary.png)
 
 
