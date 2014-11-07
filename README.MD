@@ -1,4 +1,5 @@
 # FT-Yield-Report-Generator FT良率月报自动生成工具  
+*人生苦短，必须偷懒*
 ## 概述
 - 自动绘制[*Tango*](http://tango-yes.com)系统中的`PareTo`柱状图和`TrendChart`趋势图
 - 自动生成本月所有产品的`Summary`
