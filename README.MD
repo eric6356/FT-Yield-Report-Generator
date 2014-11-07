@@ -62,6 +62,6 @@
 - 数据处理：numpy
 - 图表绘制：matplotlib
 
-## exe下载地址
-go.py编译成了exe，可以脱离Python环境执行
-[百度网盘](http://pan.baidu.com/s/1o60XE10)
+## go.exe下载地址
+go.py编译成了exe，可以脱离Python环境执行  
+[百度网盘-go.exe](http://pan.baidu.com/s/1o60XE10)
