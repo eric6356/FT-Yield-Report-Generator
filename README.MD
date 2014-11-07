@@ -3,6 +3,10 @@
 - 自动绘制*Tango*系统中的`PareTo`柱状图和`TrendChart`趋势图
 - 自动生成本月所有产品的`Summary`
 - 自动绘制每位工程师的`Summary`柱状图
+![image](https://raw.githubusercontent.com/eric6356/FT-Yield-Report-Generator/master/example/SH79F3211M_FUJI_SMK_CU_201410_PareTo.png)
+![image](https://raw.githubusercontent.com/eric6356/FT-Yield-Report-Generator/master/example/SH79F3211M_FUJI_SMK_CU_201410_TrendChart.png)
+![image](https://raw.githubusercontent.com/eric6356/FT-Yield-Report-Generator/master/example/summary.png)
+
 
 ## 使用方法
 1.	在Tango系统中抓取本月的所有lot信息，补全Au/Cu后，[注1]追加在alq.csv中。
