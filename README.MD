@@ -1,6 +1,6 @@
 # FT-Yield-Report-Generator FT良率月报自动生成工具  
 ## 概述
-- 自动绘制*Tango*系统中的`PareTo`柱状图和`TrendChart`趋势图
+- 自动绘制[*Tango*](http://tango-yes.com)系统中的`PareTo`柱状图和`TrendChart`趋势图
 - 自动生成本月所有产品的`Summary`
 - 自动绘制每位工程师的`Summary`柱状图
 
@@ -55,12 +55,8 @@
 | \*_TrendChart.png| TrendChart图          | ./month/tester/ |
 | Summary.png      | 每位工程师的summary图   | ./month/tester/ |
 
+## 涉及模块
+- 文件读取：CSV
+- 数据处理：numpy
+- 图表绘制：matplotlib
 
-### 文件树状图
-report  
-│  alq.csv  
-│  binList.csv  
-│  report.exe  
-│  
-└─201410  
-        VendorLot.csv  
