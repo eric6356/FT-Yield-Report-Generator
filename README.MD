@@ -64,4 +64,4 @@
 
 ## go.exe下载地址
 go.py编译成了exe，可以脱离Python环境执行  
-[百度网盘-go.exe](http://pan.baidu.com/s/1o60XE10)
+[百度网盘-go.exe](http://pan.baidu.com/s/1bnzsnnT)
