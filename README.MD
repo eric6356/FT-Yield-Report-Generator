@@ -59,8 +59,8 @@
 
 ## 涉及模块
 - 文件读取：CSV
-- 数据处理：numpy
-- 图表绘制：matplotlib
+- 数据处理：[numpy](http://www.numpy.org/)
+- 图表绘制：[matplotlib](http://matplotlib.org/)
 
 ## go.exe下载地址
 go.py编译成了exe，可以脱离Python环境执行  
