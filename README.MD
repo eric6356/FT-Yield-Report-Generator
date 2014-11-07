@@ -27,7 +27,7 @@
 注1：在Tango系统中，按下extract之前的预览表格中有Au/Cu的信息，而extract之后的表格则没有。因此需要手动补全后再追加到alq.csv中。可以在Tango中将extract前后的数据都按照lot名字排序后再下载，然后直接复制mental列到extract后的表格即可。
 
 
-|| *Year* || *Temperature (low)* || *Temperature (high)* ||
-|| 1900 || -10 || 25 ||
-|| 1910 || -15 || 30 ||
-|| 1920 || -10 || 32 ||
+First Header | Second Header | Third Header
+------------ | ------------- | ------------
+Content Cell | Content Cell  | Content Cell
+Content Cell | Content Cell  | Content Cell
