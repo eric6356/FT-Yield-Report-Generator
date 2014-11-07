@@ -194,8 +194,8 @@ def draw_pare_to(_all_pare_to, _month):
         # 在每个柱子上方标注百分比
         for _rect in _rects:
             h = _rect.get_height()
-            plt.text(_rect.get_x() + _rect.get_width() * 0.01, h + _all_pare_to[_i].sum * 0.01,
-                     '%2.1f' % (float(h) / _all_pare_to[_i].sum * 100), fontsize=fontsize)
+            plt.text(_rect.get_x()+_rect.get_width()/2., h, '%2.1f' % (float(h) / _all_pare_to[_i].sum * 100),
+                     fontsize=fontsize, ha='center', va='bottom')
         # plt.show()
 
         # |不能当文件名，所以要换掉
@@ -226,7 +226,7 @@ def main():
         raw_input("Can't find binList.csv, press Enter to Exit")
         exit()
     month = raw_input("input month e.g., 201410\n")
-    if not os.path.exists('./'+month+'/VendorLot.csv'):
+    if not os.path.exists('./' + month + '/VendorLot.csv'):
         raw_input("Can't find ./%s/VendorLot.csv, press Enter to Exit" % month)
         exit()
     deletelot.main()
