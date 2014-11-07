@@ -57,10 +57,10 @@
 
 
 ### 文件树状图
-report
-│  alq.csv
-│  binList.csv
-│  report.exe
-│
-└─201410
-        VendorLot.csv
+report  
+│  alq.csv  
+│  binList.csv  
+│  report.exe  
+│  
+└─201410  
+        VendorLot.csv  
