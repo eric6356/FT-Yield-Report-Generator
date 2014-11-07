@@ -25,3 +25,9 @@
     iv.	Summay中的OS不正确——需补上OS Bin Name。OS Bin Name可写成OS，O\S，O/S三者中的一者，不区分大小写。若无OS Bin Name，则默认以Bin8作为OS Bin。
     
 注1：在Tango系统中，按下extract之前的预览表格中有Au/Cu的信息，而extract之后的表格则没有。因此需要手动补全后再追加到alq.csv中。可以在Tango中将extract前后的数据都按照lot名字排序后再下载，然后直接复制mental列到extract后的表格即可。
+
+
+|| *Year* || *Temperature (low)* || *Temperature (high)* ||
+|| 1900 || -10 || 25 ||
+|| 1910 || -15 || 30 ||
+|| 1920 || -10 || 32 ||
